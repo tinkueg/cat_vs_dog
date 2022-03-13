@@ -1,6 +1,12 @@
 # Train Dogs and Cats classification using PyTorch from scratch
 This repository shows Dogs and Cats classification using PyTorch from scratch.
-Here I use convnet for dogs vs. cats classification.
+Here I use convnet for dogs vs. cats classification. I shwos you how to write a
+data a data loder from scratch and create a model. There are two different 
+implementation for data loader. The first is from scratch and the second is 
+using prebuilt "datasets.ImageFolder".
+
+A keras implementation for this is given in the Book by "Deep learning with Python"
+by Francois Chollet.
 
 ## Crete Virtual Environment
 Create a virtiual environment.
