@@ -27,6 +27,9 @@ $conda install -c conda-forge matplotlib
 Download data from https://www.kaggle.com/c/dogs-vs-cats/data and uncompress it.
 Then execute data_prep.py to prepare train, test data directory with 2000 images
 of dogs and cats.
+```console
+$python data_prep.py
+```
 
 ## Training
 To train the model on extracted data execute the following command.
