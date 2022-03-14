@@ -11,16 +11,16 @@ by Francois Chollet.
 ## Crete Virtual Environment
 Create a virtiual environment.
 ```console
-$conda create conda create --name ml_env_1.11
-$conda activate ml_env_1.11
+conda create conda create --name ml_env_1.11
+conda activate ml_env_1.11
 ```
 Install PyTorch
 ```console
-$conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 ```
 Install matplotlib
 ```console
-$conda install -c conda-forge matplotlib
+conda install -c conda-forge matplotlib
 ```
 
 ## Data Prepration
@@ -28,13 +28,13 @@ Download data from https://www.kaggle.com/c/dogs-vs-cats/data and uncompress it.
 Then execute data_prep.py to prepare train, test data directory with 2000 images
 of dogs and cats.
 ```console
-$python data_prep.py
+python data_prep.py
 ```
 
 ## Training
 To train the model on extracted data execute the following command.
 ```console
-$python train.py
+python train.py
 ```
 
 ## Results
